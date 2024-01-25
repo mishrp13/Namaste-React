@@ -1,1 +1,45 @@
-# Namaste React
+# Namaste React1
+
+# NPM will take care of the versions of the Packages
+--Package.json is a configuration of NPM
+--Most important package in our project is Bundler.....Bundler packages ur app so that u can shift it to production
+--npm install parcel
+--There are two dependencies we can install one is dev dependencies another one is normal dependencies
+--its better to put caret instead of tilda(~) because ...caret only updates minor versions and that is good but caret updates
+--major versions and that is not good because websites gets crashed it it upgreades from 2 to 3.
+--package-lock.json keeps a track of every minor update and locks it ....whereas package.json will be the same even after upgrading...
+--let say it upgraded to 2.12.0 but it will be 2.11.0 only even having caret as well. that means package.json is having approx version whereas package-lock.json is having exact version.
+--Transitive dependencies--we have install parcel but we have got lot of mudules install in our app because parcel is having some depedencies and that dependenies is having some other dependencies that is why lot of modules got installed.
+--evry libraries is having their own package.json and parcel is also having their own package .json
+--we have to push our package.json and package_lock.json in the git hub repositry because it is essential to keep a track of versions and all the dependencies and with package.json and package_lock.json we can regenerate our node modules....with npm install
+--whatever u can regenerate don't put it on git
+--npx parcel index.html for igniting our app---npx means executing the packag
+--it better to install react in node mudules with the command npm install react instead copying from cdn to html file
+--npm i react-dom----now we no longer need cdn
+--now write import React from "react" as previously it was coming from cdn that is why there was no need for importing it!!
+--now we hae to type module for the javascript file for the script type
+
+
+# Parcel
+-Dev Build
+-Local server
+-HMR =Hot Module Replacement (whatever we change in our code it changes immediately)
+-Parcel uses File watching algorithm written in c++ 
+-caching-Faster Builds
+-Image optimization
+-Minification
+-Bundling
+-compress
+-consistent Hashing
+-code splitting
+-Differential Bundling- support older browsers
+-Daignostic
+-Error Handling
+-Https
+-Tree shaking- remove unused code
+-Different Dev and prod bundles
+
+-----------------------------------------------------------------------------
+# Lecture-3
+--Previously we were using npx run index.html.....but now we have added scripts in package.json and made start: parcel index.html
+now we can directly use npm run start and same goes for build can refer package.json file....npm start=npm run start but npm run build!= npm build.
