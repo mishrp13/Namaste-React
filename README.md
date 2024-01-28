@@ -43,3 +43,59 @@
 # Lecture-3
 --Previously we were using npx run index.html.....but now we have added scripts in package.json and made start: parcel index.html
 now we can directly use npm run start and same goes for build can refer package.json file....npm start=npm run start but npm run build!= npm build.
+
+# Lecture-4
+
+Props ifs passing argument to a function
+--when you have to pass a data dynamically to an argument ...you pass in as a prop
+
+--configue driven UI
+-if u want different colors for Bangalore and different color for Pune then it needs to be in configue and it will derive it from
+here.
+
+--Rendering
+Always try to give id or Key in map because if we forget to provide key in map and some card got added then react won't know which card actually got added and it will render all the card again but if we provided the key then it will render only that card that actually got added and the key should be unique
+
+---index as key is an anti-pattern ...never use it ...learn the atrtical in react
+
+--not using keys(not acceptable) <<<<<index as key<<<<  unique Id(best Practise)
+
+# Namaste food 
+
+
+/*
+
+*Header
+*--logo
+*--Nav Items
+*Body
+*--search
+*--RestaurantContainer
+*---------------RestuarantCard
+*-----------------img
+*------------------Name of Res,Star Rating,cuisine,delivery time
+*Footer
+*--Copyright
+*--links
+*--Address
+*--contact
+
+*/
+
+# Two types of import and export
+
+-Default Export and Import
+
+export default component;
+import component from "path";
+
+-Named Export and Import
+
+export const component;
+import component from {path};
+
+# Props
+
+when you have to dynamically paasin data to a component ...you pass in as a prop
+
+
