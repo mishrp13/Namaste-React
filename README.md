@@ -99,3 +99,23 @@ import component from {path};
 when you have to dynamically paasin data to a component ...you pass in as a prop
 
 
+# React Hooks
+(Normal Javascript utility function)
+-useState()---whenever state variable changes react re-renders the component
+-useeffect()
+
+
+
+# Monolithic & microservices
+
+monlothic is not supported nowadays because evrything is in  one place such as backend call, Authentication, database connectivity,
+and becomes really cumbersome on the other hand microservices is something where we we use  evrything in different places such as backend call, database connectivity, authentication. At the end evrything gets connected at the main place such as domain name!!
+
+# React Rendering
+
+1. Generally not used
+Loads->API->Render
+
+2. This is generally used
+Loads->Render->API->Render (Better Approcah,Better ux)
+React has best rendering mechanism
