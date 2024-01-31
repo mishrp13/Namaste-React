@@ -1,25 +1,40 @@
 // ## Namaste React Course by Akshay Saini
+
 // Chapter 04 - Talk is Cheap, show me the code
 
+
+
+
 import React from "react";
+
 import ReactDOM from "react-dom/client";
-import Header from "./componets/Header";
-import Body from "./componets/Body"
+import Header from "./Components/Header";
 
-
-
-
+import Body from "./Components/Body";
 
 
 const Applayout=()=>{
+
 return(
+
   <div className="App">
+
   <Header/>
+
   <Body/>
+
   </div>
+
 )
+
+
+
 
 }
 
+
+
+
 const root= ReactDOM.createRoot(document.getElementById("root"))
+
 root.render(<Applayout/>)

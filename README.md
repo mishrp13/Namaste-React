@@ -119,3 +119,6 @@ Loads->API->Render
 2. This is generally used
 Loads->Render->API->Render (Better Approcah,Better ux)
 React has best rendering mechanism
+
+
+# whenever state variable updates, react triggers and re-renders the component.
